@@ -32,7 +32,7 @@ function change_scene(num){
     ir.style.display = 'none';
     cs.style.display = 'block';
   }else if(num === 2){
-    if(document.getElementById('house').value === '1106' && document.getElementById('name').value === '김선생'){
+    if(document.getElementById('house').value === '' && document.getElementById('name').value === ''){
       alert('추리에 성공하셨습니다!');
       ir.style.display = 'none';
       ans.style.display = 'block';
